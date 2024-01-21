@@ -1,0 +1,1 @@
+- create a probability that a sentiment is negative or positive based on the words that appear
