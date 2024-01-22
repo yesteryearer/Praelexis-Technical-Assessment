@@ -1,3 +1,3 @@
 - create a probability that a sentiment is negative or positive based on the words that appear
-- calculate the probability that a negative sentiment is coupled to a particular airline
+- calculate the probability that a sentiment/negative sentiment is coupled to a particular airline
 - determine the probability of a negative sentiment appearing at a specific time of day
