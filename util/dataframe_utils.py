@@ -1,13 +1,13 @@
 import pandas as pd
 
-def analyse_columns(dataframe: pd.DataFrame):
+def analyse_columns(df: pd.DataFrame):
     column_analysis = []
 
-    for column in dataframe.columns:
-        data_type = dataframe[column].dtype
-        total_missing = dataframe[column].isnull().sum()
-        missing_ratio = total_missing / len(dataframe) * 100
-        unique_values = dataframe[column].nunique()
+    for column in df.columns:
+        data_type = df[column].dtype
+        total_missing = df[column].isnull().sum()
+        missing_ratio = total_missing / len(df) * 100
+        unique_values = df[column].nunique()
 
         column_info = {
             'Column': column,
