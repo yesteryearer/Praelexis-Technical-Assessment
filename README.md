@@ -12,11 +12,7 @@ Included are the `requirements.txt` and `environment.yml` from my local conda en
 ### Models
 The models directory contains two subdirectories, namely `complete` and `incomplete`. The `complete` directory contains the two models to be submitted for evaluation of the assessment. The models contained within the `incomplete` directory were preserved to exhibited my exploration of ideas.
 
-``````
-Please Note: 
-
-There are two newer models under the `new` subdirectory, that exhibit greater informative abilities and make use of the pm.Categorical feature. THe 'features_by_sentiment' being the better one of the two.
-``````
+> **Note**: There are two newer models under the `new` subdirectory, that exhibit greater informative abilities and make use of the pm.Categorical feature. The `features_by_sentiment` being the better one of the two.
 
 ### Research Result
 The research results are contained within a technical report within the `report` directory.
